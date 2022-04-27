@@ -29,8 +29,9 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := UNOFFICIAL
+EVO_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1440
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := evolution_starlte
